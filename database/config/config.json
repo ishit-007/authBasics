@@ -3,14 +3,16 @@
     "username": "postgres",
     "password": null,
     "database": "users",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5432
   },
   "test": {
     "username": "postgres",
     "password": null,
     "database": "users",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "docker.for.mac.localhost",
+    "dialect": "postgres",
+    "port": 5432
   }
 }
